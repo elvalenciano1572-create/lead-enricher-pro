@@ -32,9 +32,9 @@ lead-enrich stripe.com shopify.com
 ========================================================================
    LEAD ENRICHER PRO: B2B INTELLIGENCE & CONTACT PIPELINE
 ========================================================================
-[*] Processing 2 company domains...
+[*] Processing 1 company domains...
 
-🏢 [Stripe, Inc.] (stripe.com) - Fit Score: 9/10
+[B2B] [Stripe, Inc.] (stripe.com) - Fit Score: 9/10
    Industry:    Fintech / Payment Processing | HQ: San Francisco, CA / Dublin, Ireland
    Employees:   5,000 - 10,000 | Email: press@stripe.com
    Tech Stack:  Ruby, Python, React, AWS, Kafka
@@ -42,16 +42,13 @@ lead-enrich stripe.com shopify.com
      * Patrick Collison (CEO)
      * David Singleton (CTO)
 
-🏢 [Shopify Inc.] (shopify.com) - Fit Score: 10/10
-   Industry:    E-Commerce Platforms | HQ: Ottawa, Canada
-   Employees:   10,000+ | Email: contact@shopify.com
-   Tech Stack:  Ruby on Rails, GraphQL, React, Google Cloud
-   Key People:
-     * Tobi Lutke (CEO)
-     * Harley Finkelstein (President)
 ========================================================================
 ```
 
 ## License
 
 MIT
+
+## Scope / Status
+
+This repository is a **working demo on deterministic sample data** (runs offline, covered by automated tests). Uses a small built-in sample dataset. Live enrichment APIs are not implemented yet. Entries in `.env.example` are placeholders for those future connectors.
